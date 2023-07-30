@@ -11,7 +11,7 @@ Web-приложение для автоматизации работы пред
 Используемые технологии всей серверной части проекта: Java, Spring Boot, REST, API Gateway, PostgreSQL
 ## Как запустить 
 Проект разработан в среде IntelliJ IDEA (Протестирован в Build #IC-221.6008.13, built on July 19, 2022)  
-Настройте IDE для запуска vkr_api_gateway/src/main/java/org/example/Main.java
+Настройте IDE для запуска /src/main/java/org/example/Main.java
 
 ## Как работает
 При регистрации пользователя генерируется соль вызовом метода BCrypt.gensalt() и используется для вычисления хеша. 
